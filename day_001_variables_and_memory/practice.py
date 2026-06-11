@@ -13,7 +13,9 @@ print("list1 == list2:", list1 == list2)
 print("list1 is list2:", list1 is list2)
 
 # 3. Add comment explaining the difference:
-# Your explanation here:
+# - '==' compares the VALUES of the objects (equality). Both lists contain [10, 20, 30], so this is True.
+# - 'is' compares the IDENTITIES (memory addresses) of the objects (reference/identity).
+#   Since list1 and list2 are two separate lists created at different memory addresses, this is False.
 
 # 4. Append 40 to list1 and check list2
 list1.append(40)
@@ -45,4 +47,10 @@ y2 = 257
 print("257: x2 is y2:", x2 is y2)
 
 # 3. Run this file using 'python practice.py' and compare it with running line-by-line in the REPL.
-# Write your findings in a comment below:
+# Findings:
+# - In a script (like python practice.py), Python compiles the entire block of code at once.
+#   The compiler optimizes memory by reusing identical integer literals (like 257) within the same block,
+#   so both x2 and y2 point to the same memory location, making 'x2 is y2' True.
+# - In an interactive REPL, each line is compiled separately. Python's global integer caching
+#   (interning) only pre-allocates integers from -5 to 256. Since 257 is outside this range,
+#   in the REPL, x2 and y2 are created as separate objects, making 'x2 is y2' False.
