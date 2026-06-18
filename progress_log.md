@@ -19,7 +19,8 @@ This is a living document that tracks your active progress, strengths, developme
 | **Truthiness & Operators** | 4.5 / 5 | `MASTERED` | Mastered short-circuit logic, logical operators, and guarding against operations like division by zero. |
 | **Loop Mechanics & Control** | 4.0 / 5 | `COMPLETED` | Good grasp of `for`/`while` loops, iteration control (`break`/`continue`/`pass`), and the difference between printing and returning values. |
 | **Nested Structures & 2D Data** | 4.0 / 5 | `COMPLETED` | Understands nested loops, row/column index relationships (`len(matrix[r])`), and function-level short-circuiting with `return`. |
-| **Functions & Parameter Scope** | 1.0 / 5 | `CURRENT` | Day 8 focus. Learning positional vs. keyword arguments and the mutable default trap. |
+| **Functions & Parameter Scope** | 4.0 / 5 | `COMPLETED` | Mastered positional vs. keyword arguments, and successfully solved the mutable default argument trap. |
+| **Arbitrary Args (*args & **kwargs)** | 1.0 / 5 | `CURRENT` | Day 9 focus. Learning variable positional/keyword parameters and dictionary unpacking. |
 
 ---
 
@@ -28,6 +29,7 @@ This is a living document that tracks your active progress, strengths, developme
 1. **Slow-down on Loop State Control (Day 6)**: Added custom explanations and exercises covering the *Flag Variable* pattern vs. loop-`else` to transition from reading code to active construction.
 2. **Reinforcing Index Math (Day 7)**: Slowed down to explain the exact mechanics of list-of-lists navigation (`matrix[r][c]`), columns count (`len(matrix[r])`), and scope rules.
 3. **Transition to Functions (Day 8)**: Starting arguments and parameters with a strong emphasis on memory-based concepts (mutable default trap) to bridge basic programming and OOP.
+4. **Adaptive Function Path (Day 9)**: Splitting advanced functions into multiple smaller steps (handling variable arguments and unpacking separately) before closures and decorators.
 
 ---
 
