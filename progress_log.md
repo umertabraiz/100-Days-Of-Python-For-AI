@@ -20,7 +20,8 @@ This is a living document that tracks your active progress, strengths, developme
 | **Loop Mechanics & Control** | 4.0 / 5 | `COMPLETED` | Good grasp of `for`/`while` loops, iteration control (`break`/`continue`/`pass`), and the difference between printing and returning values. |
 | **Nested Structures & 2D Data** | 4.0 / 5 | `COMPLETED` | Understands nested loops, row/column index relationships (`len(matrix[r])`), and function-level short-circuiting with `return`. |
 | **Functions & Parameter Scope** | 4.0 / 5 | `COMPLETED` | Mastered positional vs. keyword arguments, and successfully solved the mutable default argument trap. |
-| **Arbitrary Args (*args & **kwargs)** | 1.0 / 5 | `CURRENT` | Day 9 focus. Learning variable positional/keyword parameters and dictionary unpacking. |
+| **Arbitrary Args (*args & **kwargs)** | 4.2 / 5 | `COMPLETED` | Successfully completed Day 9. Mastered *args summation, **kwargs iteration/formatting, and dictionary unpacking. Clarified parameter ordering rules and underlying variable types. |
+| **Scope, Namespaces & LEGB Rule** | 4.5 / 5 | `COMPLETED` | Day 10. Mastered global state mutation, enclosing state tracking with nonlocal (EMA loss tracker), and LEGB scoping rules. |
 
 ---
 
@@ -30,6 +31,7 @@ This is a living document that tracks your active progress, strengths, developme
 2. **Reinforcing Index Math (Day 7)**: Slowed down to explain the exact mechanics of list-of-lists navigation (`matrix[r][c]`), columns count (`len(matrix[r])`), and scope rules.
 3. **Transition to Functions (Day 8)**: Starting arguments and parameters with a strong emphasis on memory-based concepts (mutable default trap) to bridge basic programming and OOP.
 4. **Adaptive Function Path (Day 9)**: Splitting advanced functions into multiple smaller steps (handling variable arguments and unpacking separately) before closures and decorators.
+5. **AI Engineering Streamlining (Day 10)**: Refocused curriculum to prune non-essential language features. Every remaining foundation day will be strictly framed around ML/AI use cases (e.g., prompt templates, configuration schemas, streaming token/data generators, and PyTorch-style OOP abstractions).
 
 ---
 
