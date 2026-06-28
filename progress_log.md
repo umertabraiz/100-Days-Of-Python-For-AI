@@ -22,6 +22,7 @@ This is a living document that tracks your active progress, strengths, developme
 | **Functions & Parameter Scope** | 4.0 / 5 | `COMPLETED` | Mastered positional vs. keyword arguments, and successfully solved the mutable default argument trap. |
 | **Arbitrary Args (*args & **kwargs)** | 4.2 / 5 | `COMPLETED` | Successfully completed Day 9. Mastered *args summation, **kwargs iteration/formatting, and dictionary unpacking. Clarified parameter ordering rules and underlying variable types. |
 | **Scope, Namespaces & LEGB Rule** | 4.5 / 5 | `COMPLETED` | Day 10. Mastered global state mutation, enclosing state tracking with nonlocal (EMA loss tracker), and LEGB scoping rules. |
+| **Closures & Decorators** | 4.3 / 5 | `COMPLETED` | Day 11. Mastered latency profilers, API retry factories with exponential backoffs, and PyTorch-like gradient toggles. Clarified metadata wrappers and execution stack orders. |
 
 ---
 
